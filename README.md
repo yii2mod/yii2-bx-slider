@@ -31,7 +31,11 @@ Once the extension is installed, simply add widget to your page as follows:
         'maxSlides' => 1,
         'controls' => false,
         'video' => true,
-        'slideWidth' => 400
+        'slideWidth' => 400,
+        //Usage events
+        'onSliderLoad' => new JsExpression('function(){
+            alert("Slider load");
+        },')
      ],
     'items' => $items 
  ]); 
