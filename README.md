@@ -2,7 +2,7 @@ Bx Slider Widget for Yii 2
 =========
 - Widget based on BxSlider extension http://bxslider.com/
 
-Installation 
+Installation   
 ------------
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
