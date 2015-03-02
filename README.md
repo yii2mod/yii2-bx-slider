@@ -34,7 +34,7 @@ Once the extension is installed, simply add widget to your page as follows:
         'slideWidth' => 400
      ],
     'items' => $items 
-    ]); 
+ ]); 
 ```
 
 Slider Options 
