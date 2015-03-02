@@ -1,0 +1,21 @@
+{
+    "name": "yii2mod/yii2-bx-slider",
+    "description": "Bx-slider widget based on bx-slider extension {@link http://bxslider.com)",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "module"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Igor Chepurnoy",
+            "email": "igorzfort@gmail.com"
+        }
+    ],
+    "require": {
+        "bower-asset/bx-slider.js": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii2mod\\bxslider\\": ""
+        }
+    }
+}
