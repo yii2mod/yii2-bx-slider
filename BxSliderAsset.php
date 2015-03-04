@@ -35,6 +35,6 @@ class BxSliderAsset extends AssetBundle
      * @var array
      */
     public $depends = [
-        'app\assets\AppAsset',
+        'yii\web\YiiAsset'
     ];
 }
