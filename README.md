@@ -26,13 +26,13 @@ Usage
 Once the extension is installed, simply add widget to your page as follows:
 
 ```php
-//Video items
+// Video items
 $items = [
    '<iframe src="https://www.youtube.com/embed/ES__vbRnN-A" frameborder="0"></iframe>',
    '<iframe src="https://www.youtube.com/embed/Ez_LIuE96-A" frameborder="0"></iframe>'
  ];
  
-//Or image items
+// Or image items
 $items = [
    '<img src="/imagepath/imagename.jpg" alt="" title="Your image title">',
 ];
@@ -41,9 +41,10 @@ $items = [
     'pluginOptions' => [
         'maxSlides' => 1,
         'controls' => false,
+        // set video property to true, if in $items array exist videos
         'video' => true,
         'slideWidth' => 400,
-        //Usage events
+        // usage events
         'onSliderLoad' => new JsExpression('function(){
             alert("Slider load");
         },')
