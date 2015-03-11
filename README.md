@@ -26,6 +26,17 @@ Usage
 Once the extension is installed, simply add widget to your page as follows:
 
 ```php
+//Video items
+$items = [
+   '<iframe src="https://www.youtube.com/embed/ES__vbRnN-A" frameborder="0"></iframe>',
+   '<iframe src="https://www.youtube.com/embed/Ez_LIuE96-A" frameborder="0"></iframe>'
+ ];
+ 
+//Or image items
+$items = [
+   '<img src="/imagepath/imagename.jpg" alt="" title="Your image title">',
+];
+ 
  echo BxSlider::widget([
     'pluginOptions' => [
         'maxSlides' => 1,
