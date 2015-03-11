@@ -41,13 +41,15 @@ $items = [
     'pluginOptions' => [
         'maxSlides' => 1,
         'controls' => false,
-        // set video property to true, if in $items array exist videos
+         // set video property to true, if in $items array exist videos
         'video' => true,
         'slideWidth' => 400,
-        // usage events
-        'onSliderLoad' => new JsExpression('function(){
-            alert("Slider load");
-        },')
+         // usage events
+        'onSliderLoad' => new JsExpression('
+            function() {
+                alert("Slider load");
+            },
+        ')
      ],
     'items' => $items 
  ]); 
