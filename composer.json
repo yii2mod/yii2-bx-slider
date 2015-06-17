@@ -3,7 +3,7 @@
     "description": "Bx-slider widget based on bx-slider extension {@link http://bxslider.com)",
     "type": "yii2-extension",
     "keywords": ["yii2", "module"],
-    "license": "Apache-2.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Igor Chepurnoy",
