@@ -49,7 +49,9 @@ class BxSlider extends Widget
         if (empty($this->items)) {
             return;
         }
-        $this->containerOptions['id'] = $this->getId();
+        if (!isset($this->containerOptions['id'])) {
+            $this->containerOptions['id'] = $this->getId();
+        }
         echo $this->renderItems() . "\n";
         $this->registerAssets();
     }
@@ -61,7 +63,7 @@ class BxSlider extends Widget
     {
         $view = $this->getView();
         BxSliderAsset::register($view);
-        $js = '$("#' . $this->getId() . '").bxSlider(' . $this->getPluginOptions() . ');';
+        $js = '$("#' . $this->containerOptions['id'] . '").bxSlider(' . $this->getPluginOptions() . ');';
         $view->registerJs($js, $view::POS_END);
 
     }
