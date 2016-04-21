@@ -37,7 +37,7 @@ $items = [
    '<img src="/imagepath/imagename.jpg" alt="" title="Your image title">',
 ];
  
- echo BxSlider::widget([
+ echo yii2mod\bxslider\BxSlider::widget([
     'pluginOptions' => [
         'maxSlides' => 1,
         'controls' => false,
@@ -45,7 +45,7 @@ $items = [
         'video' => true,
         'slideWidth' => 400,
          // usage events
-        'onSliderLoad' => new JsExpression('
+        'onSliderLoad' => new yii\web\JsExpression('
             function() {
                 alert("Slider load");
             },
