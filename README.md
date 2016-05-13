@@ -1,6 +1,8 @@
 Bx Slider Widget for Yii 2
-=========
-- Widget based on BxSlider extension http://bxslider.com/
+==========================
+Widget based on [BxSlider extension](http://bxslider.com)
+
+[![Latest Stable Version](https://poser.pugx.org/yii2mod/yii2-bx-slider/v/stable)](https://packagist.org/packages/yii2mod/yii2-bx-slider) [![Total Downloads](https://poser.pugx.org/yii2mod/yii2-bx-slider/downloads)](https://packagist.org/packages/yii2mod/yii2-bx-slider) [![License](https://poser.pugx.org/yii2mod/yii2-bx-slider/license)](https://packagist.org/packages/yii2mod/yii2-bx-slider)
 
 Installation   
 ------------
